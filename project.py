@@ -66,8 +66,11 @@ obj.add_student(3,"TEMGOUA PAPA",'M')
 subj_list=[]
 
 # An object of subject class
-sub= Subject(0,'',0)
+subj= Subject(0,'',0)
 
+subj.add_subject(101,"Math ", 5)
+subj.add_subject(102,"Chemistry ", 2)
+subj.add_subject(103,"Biology ", 3)
 
 
 print("Operations that can be used: ")
